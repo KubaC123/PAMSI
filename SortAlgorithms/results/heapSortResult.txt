@@ -1,0 +1,112 @@
+STARTED Sun Mar 24 17:03:00 2019
+
+TESTING HEAPSORT
+------------------------------------------------
+TESTED arrays with SIZE: 10000 PERCENT OF SORTED ELEMENTS: 0
+AVERAGE TIME [SEC]: 0.403
+------------------------------------------------
+TESTED arrays with SIZE: 10000 PERCENT OF SORTED ELEMENTS: 0.25
+AVERAGE TIME [SEC]: 0.4
+------------------------------------------------
+TESTED arrays with SIZE: 10000 PERCENT OF SORTED ELEMENTS: 0.5
+AVERAGE TIME [SEC]: 0.4
+------------------------------------------------
+TESTED arrays with SIZE: 10000 PERCENT OF SORTED ELEMENTS: 0.75
+AVERAGE TIME [SEC]: 0.4
+------------------------------------------------
+TESTED arrays with SIZE: 10000 PERCENT OF SORTED ELEMENTS: 0.95
+AVERAGE TIME [SEC]: 0.4
+------------------------------------------------
+TESTED arrays with SIZE: 10000 PERCENT OF SORTED ELEMENTS: 0.99
+AVERAGE TIME [SEC]: 0.4
+------------------------------------------------
+TESTED arrays with SIZE: 10000 PERCENT OF SORTED ELEMENTS: 0.997
+AVERAGE TIME [SEC]: 0.4
+------------------------------------------------
+TESTED arrays with SIZE: 50000 PERCENT OF SORTED ELEMENTS: 0
+AVERAGE TIME [SEC]: 2.693
+------------------------------------------------
+TESTED arrays with SIZE: 50000 PERCENT OF SORTED ELEMENTS: 0.25
+AVERAGE TIME [SEC]: 2.7
+------------------------------------------------
+TESTED arrays with SIZE: 50000 PERCENT OF SORTED ELEMENTS: 0.5
+AVERAGE TIME [SEC]: 2.6
+------------------------------------------------
+TESTED arrays with SIZE: 50000 PERCENT OF SORTED ELEMENTS: 0.75
+AVERAGE TIME [SEC]: 2.497
+------------------------------------------------
+TESTED arrays with SIZE: 50000 PERCENT OF SORTED ELEMENTS: 0.95
+AVERAGE TIME [SEC]: 2.402
+------------------------------------------------
+TESTED arrays with SIZE: 50000 PERCENT OF SORTED ELEMENTS: 0.99
+AVERAGE TIME [SEC]: 2.4
+------------------------------------------------
+TESTED arrays with SIZE: 50000 PERCENT OF SORTED ELEMENTS: 0.997
+AVERAGE TIME [SEC]: 2.4
+------------------------------------------------
+TESTED arrays with SIZE: 100000 PERCENT OF SORTED ELEMENTS: 0
+AVERAGE TIME [SEC]: 5.8
+------------------------------------------------
+TESTED arrays with SIZE: 100000 PERCENT OF SORTED ELEMENTS: 0.25
+AVERAGE TIME [SEC]: 5.801
+------------------------------------------------
+TESTED arrays with SIZE: 100000 PERCENT OF SORTED ELEMENTS: 0.5
+AVERAGE TIME [SEC]: 5.7
+------------------------------------------------
+TESTED arrays with SIZE: 100000 PERCENT OF SORTED ELEMENTS: 0.75
+AVERAGE TIME [SEC]: 5.433
+------------------------------------------------
+TESTED arrays with SIZE: 100000 PERCENT OF SORTED ELEMENTS: 0.95
+AVERAGE TIME [SEC]: 5.3
+------------------------------------------------
+TESTED arrays with SIZE: 100000 PERCENT OF SORTED ELEMENTS: 0.99
+AVERAGE TIME [SEC]: 5.204
+------------------------------------------------
+TESTED arrays with SIZE: 100000 PERCENT OF SORTED ELEMENTS: 0.997
+AVERAGE TIME [SEC]: 5.205
+------------------------------------------------
+TESTED arrays with SIZE: 500000 PERCENT OF SORTED ELEMENTS: 0
+AVERAGE TIME [SEC]: 34.895
+------------------------------------------------
+TESTED arrays with SIZE: 500000 PERCENT OF SORTED ELEMENTS: 0.25
+AVERAGE TIME [SEC]: 34.51
+------------------------------------------------
+TESTED arrays with SIZE: 500000 PERCENT OF SORTED ELEMENTS: 0.5
+AVERAGE TIME [SEC]: 34.007
+------------------------------------------------
+TESTED arrays with SIZE: 500000 PERCENT OF SORTED ELEMENTS: 0.75
+AVERAGE TIME [SEC]: 32.1
+------------------------------------------------
+TESTED arrays with SIZE: 500000 PERCENT OF SORTED ELEMENTS: 0.95
+AVERAGE TIME [SEC]: 30.523
+------------------------------------------------
+TESTED arrays with SIZE: 500000 PERCENT OF SORTED ELEMENTS: 0.99
+AVERAGE TIME [SEC]: 30.316
+------------------------------------------------
+TESTED arrays with SIZE: 500000 PERCENT OF SORTED ELEMENTS: 0.997
+AVERAGE TIME [SEC]: 30.3
+------------------------------------------------
+TESTED arrays with SIZE: 1000000 PERCENT OF SORTED ELEMENTS: 0
+AVERAGE TIME [SEC]: 75.431
+------------------------------------------------
+TESTED arrays with SIZE: 1000000 PERCENT OF SORTED ELEMENTS: 0.25
+AVERAGE TIME [SEC]: 73.73
+------------------------------------------------
+TESTED arrays with SIZE: 1000000 PERCENT OF SORTED ELEMENTS: 0.5
+AVERAGE TIME [SEC]: 72.724
+------------------------------------------------
+TESTED arrays with SIZE: 1000000 PERCENT OF SORTED ELEMENTS: 0.75
+AVERAGE TIME [SEC]: 67.952
+------------------------------------------------
+TESTED arrays with SIZE: 1000000 PERCENT OF SORTED ELEMENTS: 0.95
+AVERAGE TIME [SEC]: 64.488
+------------------------------------------------
+TESTED arrays with SIZE: 1000000 PERCENT OF SORTED ELEMENTS: 0.99
+AVERAGE TIME [SEC]: 64.039
+------------------------------------------------
+TESTED arrays with SIZE: 1000000 PERCENT OF SORTED ELEMENTS: 0.997
+AVERAGE TIME [SEC]: 63.978
+------------------------------------------------
+FINISHED Sun Mar 24 17:16:03 2019
+
+################################################

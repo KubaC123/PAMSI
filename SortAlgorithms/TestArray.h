@@ -105,7 +105,7 @@ private:
     bool isSortedInRevertOrder() {
         if(size == 1 || size == 0) return true;
         
-        for(int i=1; i<size; i++)
+        for(int i=1; i<(int)size; i++)
             if(array[i - 1] < array[i]) return false;
         
         return true;
@@ -114,7 +114,7 @@ private:
     bool isSortedInAscendingOrder() {
         if(size == 1 || size == 0) return true;
         
-        for(int i=1; i<size; i++)
+        for(int i=1; i<(int)size; i++)
             if(array[i - 1] > array[i]) return false;
         
         return true;

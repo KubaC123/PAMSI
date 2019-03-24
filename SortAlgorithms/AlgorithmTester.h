@@ -15,16 +15,16 @@ template <class T>
 class AlgorithmTester {
 private:
     
-    int numberOfArraysInEachTestCase = 1;
-    size_t sizeOfArrays[1] = {10000000};
-    double percentOfSortedElements[2] = {0.2, 0.1};
+    int numberOfArraysInEachTestCase = 100;
+    size_t sizeOfArrays[5] = {10000, 50000, 100000, 500000, 1000000};
+    double percentOfSortedElements[7] = {0.0, 0.25, 0.5, 0.75, 0.95, 0.99, 0.997};
     std::string resultFilePath;
     std::ofstream output;
     
 public:
     
     AlgorithmTester() : output("results.txt", std::ofstream::app) { }
-    
+
     AlgorithmTester(std::string resultFilePath) :
     resultFilePath(resultFilePath),
     output(resultFilePath, std::ofstream::app| std::ofstream::trunc) { }
@@ -32,7 +32,7 @@ public:
     ~AlgorithmTester() {
         output.close();
     }
-    
+
     void test(SortAlgorithm *algorithm) {
             std::cout << algorithm->getName() << " TEST STARTED" << std::endl;
             bool result = testAllCases(algorithm);
@@ -47,13 +47,15 @@ private:
     
     bool testAllCases(SortAlgorithm *sortAlgorithm) {
         long double averageTime;
+        int testNr = 0;
         testStartedMessage(sortAlgorithm->getName());
         
         for(size_t size : sizeOfArrays) {
             for(double percent : percentOfSortedElements) {
                 averageTime = 0;
                 for(int i=0; i<numberOfArraysInEachTestCase; i++)  {
-                    std::cout << "Test nr " << i << " || array size " << (int)size << " || % sorted " << percent << std::endl;
+                    testNr++;
+                    std::cout << "Test nr " << testNr << " || array size " << (int)size << " || % sorted " << percent << std::endl;
                     TestArray *testArray = new TestArray(size, percent, false);
                     Timer timer;
                     timer.start();

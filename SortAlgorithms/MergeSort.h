@@ -6,7 +6,8 @@ class MergeSort : public SortAlgorithm {
 private:
     
     void merge(int *array, int low, int high, int mid) {
-        int leftPos, rightPos, index, result[high-low+1];
+        int leftPos, rightPos, index;
+        T *result = new T[high-low+1];
         leftPos = low;
         index = 0;
         rightPos = mid + 1;
@@ -30,6 +31,7 @@ private:
         for (leftPos = low; leftPos <= high; leftPos++) {
             array[leftPos] = result[leftPos-low];
         }
+        delete result;
     }
     
     void mergeSortProcedure(int *array, int low, int high) {
