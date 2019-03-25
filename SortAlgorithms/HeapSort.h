@@ -6,9 +6,10 @@ class HeapSort : public SortAlgorithm {
 private:
     
     void maxHeap(T *array, int size, int parent) {
-        int max = parent;
-        int left = 2*parent+1;
-        int right = 2*parent+2;
+        int max, left, right;
+        max = parent;
+        left = 2*parent+1;
+        right = 2*parent+2;
         if(left<size && array[left]>array[max]) max = left;
         if(right<size && array[right]>array[max]) max = right;
         if(max != parent) {

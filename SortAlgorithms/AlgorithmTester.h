@@ -81,8 +81,7 @@ private:
     }
     
     void testedArraysWithSizeAndPercentOfSortedElementsMessage(size_t size, double percent, long double averageTime) {
-        long double resultInSeconds = averageTime/1000;
-        output << "TESTED arrays with SIZE: " << size << " PERCENT OF SORTED ELEMENTS: " << percent << std::endl << "AVERAGE TIME [SEC]: " << resultInSeconds << std::endl << "------------------------------------------------" << std::endl;;
+        output << "TESTED arrays with SIZE: " << size << " PERCENT OF SORTED ELEMENTS: " << percent << std::endl << "AVERAGE TIME [MS]: " << averageTime << std::endl << "------------------------------------------------" << std::endl;;
     }
     
     void testFinishedMessage() {

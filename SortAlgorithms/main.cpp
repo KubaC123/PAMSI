@@ -4,10 +4,10 @@
 #include <time.h>
 
 int main() {
-    SortAlgorithm *quickSort = new IntroSort<int>("INtroSort");
+    SortAlgorithm *heapSort = new HeapSort<int>("HeapSort");
     AlgorithmTester<int> algorithmTester;
-    algorithmTester.test(quickSort);
-    delete quickSort;
-    
+    algorithmTester.test(heapSort);
+    delete heapSort;
     return 0;
 }
+    

@@ -10,7 +10,7 @@ private:
         T *result = new T[high-low+1];
         leftPos = low;
         index = 0;
-        rightPos = mid + 1;
+        rightPos = mid+1;
         
         while (leftPos <= mid && rightPos <= high) {
             if (array[leftPos] < array[rightPos]) {
