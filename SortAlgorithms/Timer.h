@@ -21,7 +21,7 @@ public:
     }
     
     long double resultMs() {
-        return std::chrono::duration_cast<std::chrono::milliseconds>(end - begin).count();
+        return std::chrono::duration_cast<std::chrono::microseconds>(end - begin).count();
     }
     
 };

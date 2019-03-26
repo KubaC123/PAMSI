@@ -15,7 +15,7 @@ template <class T>
 class AlgorithmTester {
 private:
     
-    int numberOfArraysInEachTestCase = 100;
+    int numberOfArraysInEachTestCase= 100;
     size_t sizeOfArrays[5] = {10000, 50000, 100000, 500000, 1000000};
     double percentOfSortedElements[7] = {0.0, 0.25, 0.5, 0.75, 0.95, 0.99, 0.997};
     std::string resultFilePath;
@@ -67,7 +67,7 @@ private:
                     }
                     delete testArray;
                 }
-                testedArraysWithSizeAndPercentOfSortedElementsMessage(size, percent, averageTime);
+                testedArraysWithSizeAndPercentOfSortedElementsMessage(size, percent, averageTime/(double)numberOfArraysInEachTestCase);
             }
         }
         testFinishedMessage();
@@ -81,7 +81,7 @@ private:
     }
     
     void testedArraysWithSizeAndPercentOfSortedElementsMessage(size_t size, double percent, long double averageTime) {
-        output << "TESTED arrays with SIZE: " << size << " PERCENT OF SORTED ELEMENTS: " << percent << std::endl << "AVERAGE TIME [MS]: " << averageTime << std::endl << "------------------------------------------------" << std::endl;;
+        output << "TESTED arrays with SIZE: " << size << " PERCENT OF SORTED ELEMENTS: " << percent << std::endl << "AVERAGE TIME [micro sec]: " << averageTime << std::endl << "------------------------------------------------" << std::endl;;
     }
     
     void testFinishedMessage() {

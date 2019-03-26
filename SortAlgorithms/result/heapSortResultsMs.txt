@@ -1,0 +1,112 @@
+STARTED Tue Mar 26 20:47:30 2019
+
+TESTING HeapSort
+------------------------------------------------
+TESTED arrays with SIZE: 10000 PERCENT OF SORTED ELEMENTS: 0
+AVERAGE TIME [micro sec]: 4613.73
+------------------------------------------------
+TESTED arrays with SIZE: 10000 PERCENT OF SORTED ELEMENTS: 0.25
+AVERAGE TIME [micro sec]: 4509.36
+------------------------------------------------
+TESTED arrays with SIZE: 10000 PERCENT OF SORTED ELEMENTS: 0.5
+AVERAGE TIME [micro sec]: 4474.79
+------------------------------------------------
+TESTED arrays with SIZE: 10000 PERCENT OF SORTED ELEMENTS: 0.75
+AVERAGE TIME [micro sec]: 4329.66
+------------------------------------------------
+TESTED arrays with SIZE: 10000 PERCENT OF SORTED ELEMENTS: 0.95
+AVERAGE TIME [micro sec]: 4229.12
+------------------------------------------------
+TESTED arrays with SIZE: 10000 PERCENT OF SORTED ELEMENTS: 0.99
+AVERAGE TIME [micro sec]: 4250.93
+------------------------------------------------
+TESTED arrays with SIZE: 10000 PERCENT OF SORTED ELEMENTS: 0.997
+AVERAGE TIME [micro sec]: 4177.64
+------------------------------------------------
+TESTED arrays with SIZE: 50000 PERCENT OF SORTED ELEMENTS: 0
+AVERAGE TIME [micro sec]: 27000
+------------------------------------------------
+TESTED arrays with SIZE: 50000 PERCENT OF SORTED ELEMENTS: 0.25
+AVERAGE TIME [micro sec]: 27154.6
+------------------------------------------------
+TESTED arrays with SIZE: 50000 PERCENT OF SORTED ELEMENTS: 0.5
+AVERAGE TIME [micro sec]: 26799.8
+------------------------------------------------
+TESTED arrays with SIZE: 50000 PERCENT OF SORTED ELEMENTS: 0.75
+AVERAGE TIME [micro sec]: 25287.4
+------------------------------------------------
+TESTED arrays with SIZE: 50000 PERCENT OF SORTED ELEMENTS: 0.95
+AVERAGE TIME [micro sec]: 24514.6
+------------------------------------------------
+TESTED arrays with SIZE: 50000 PERCENT OF SORTED ELEMENTS: 0.99
+AVERAGE TIME [micro sec]: 24603.8
+------------------------------------------------
+TESTED arrays with SIZE: 50000 PERCENT OF SORTED ELEMENTS: 0.997
+AVERAGE TIME [micro sec]: 24390.7
+------------------------------------------------
+TESTED arrays with SIZE: 100000 PERCENT OF SORTED ELEMENTS: 0
+AVERAGE TIME [micro sec]: 58821.9
+------------------------------------------------
+TESTED arrays with SIZE: 100000 PERCENT OF SORTED ELEMENTS: 0.25
+AVERAGE TIME [micro sec]: 58240.9
+------------------------------------------------
+TESTED arrays with SIZE: 100000 PERCENT OF SORTED ELEMENTS: 0.5
+AVERAGE TIME [micro sec]: 57659.9
+------------------------------------------------
+TESTED arrays with SIZE: 100000 PERCENT OF SORTED ELEMENTS: 0.75
+AVERAGE TIME [micro sec]: 54872.8
+------------------------------------------------
+TESTED arrays with SIZE: 100000 PERCENT OF SORTED ELEMENTS: 0.95
+AVERAGE TIME [micro sec]: 52553.3
+------------------------------------------------
+TESTED arrays with SIZE: 100000 PERCENT OF SORTED ELEMENTS: 0.99
+AVERAGE TIME [micro sec]: 52253.5
+------------------------------------------------
+TESTED arrays with SIZE: 100000 PERCENT OF SORTED ELEMENTS: 0.997
+AVERAGE TIME [micro sec]: 52036.1
+------------------------------------------------
+TESTED arrays with SIZE: 500000 PERCENT OF SORTED ELEMENTS: 0
+AVERAGE TIME [micro sec]: 350294
+------------------------------------------------
+TESTED arrays with SIZE: 500000 PERCENT OF SORTED ELEMENTS: 0.25
+AVERAGE TIME [micro sec]: 344242
+------------------------------------------------
+TESTED arrays with SIZE: 500000 PERCENT OF SORTED ELEMENTS: 0.5
+AVERAGE TIME [micro sec]: 339009
+------------------------------------------------
+TESTED arrays with SIZE: 500000 PERCENT OF SORTED ELEMENTS: 0.75
+AVERAGE TIME [micro sec]: 317573
+------------------------------------------------
+TESTED arrays with SIZE: 500000 PERCENT OF SORTED ELEMENTS: 0.95
+AVERAGE TIME [micro sec]: 300132
+------------------------------------------------
+TESTED arrays with SIZE: 500000 PERCENT OF SORTED ELEMENTS: 0.99
+AVERAGE TIME [micro sec]: 298487
+------------------------------------------------
+TESTED arrays with SIZE: 500000 PERCENT OF SORTED ELEMENTS: 0.997
+AVERAGE TIME [micro sec]: 298568
+------------------------------------------------
+TESTED arrays with SIZE: 1000000 PERCENT OF SORTED ELEMENTS: 0
+AVERAGE TIME [micro sec]: 764256
+------------------------------------------------
+TESTED arrays with SIZE: 1000000 PERCENT OF SORTED ELEMENTS: 0.25
+AVERAGE TIME [micro sec]: 738572
+------------------------------------------------
+TESTED arrays with SIZE: 1000000 PERCENT OF SORTED ELEMENTS: 0.5
+AVERAGE TIME [micro sec]: 729613
+------------------------------------------------
+TESTED arrays with SIZE: 1000000 PERCENT OF SORTED ELEMENTS: 0.75
+AVERAGE TIME [micro sec]: 672298
+------------------------------------------------
+TESTED arrays with SIZE: 1000000 PERCENT OF SORTED ELEMENTS: 0.95
+AVERAGE TIME [micro sec]: 634558
+------------------------------------------------
+TESTED arrays with SIZE: 1000000 PERCENT OF SORTED ELEMENTS: 0.99
+AVERAGE TIME [micro sec]: 629538
+------------------------------------------------
+TESTED arrays with SIZE: 1000000 PERCENT OF SORTED ELEMENTS: 0.997
+AVERAGE TIME [micro sec]: 628032
+------------------------------------------------
+FINISHED Tue Mar 26 21:00:27 2019
+
+################################################

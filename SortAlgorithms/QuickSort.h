@@ -7,21 +7,21 @@ class QuickSort : public SortAlgorithm {
 private:
 
     void quickSortProcedure(T *array, int left, int right) {
-    int leftPos = left, rightPos = right;
-    T key = array[(leftPos+rightPos)/2];
+        int leftPos = left, rightPos = right;
+        T key = array[(leftPos+rightPos)/2];
 
-    while (leftPos <= rightPos) {
-        while (array[leftPos] < key)
-            leftPos++;
-        while (array[rightPos] > key)
-            rightPos--;
-        if (leftPos <= rightPos)
-            std::swap(array[leftPos++], array[rightPos--]);
-    }
-    if (rightPos > left)
-        quickSortProcedure(array, left, rightPos);
-    if (leftPos < right)
-        quickSortProcedure(array, leftPos, right);
+        while (leftPos <= rightPos) {
+            while (array[leftPos] < key)
+                leftPos++;
+            while (array[rightPos] > key)
+                rightPos--;
+            if (leftPos <= rightPos)
+                std::swap(array[leftPos++], array[rightPos--]);
+        }
+        if (rightPos > left)
+            quickSortProcedure(array, left, rightPos);
+        if (leftPos < right)
+            quickSortProcedure(array, leftPos, right);
     }
     
 public:

@@ -116,7 +116,6 @@ private:
         
         for(int i=1; i<(int)size; i++)
             if(array[i - 1] > array[i]) return false;
-        
         return true;
     }
     
